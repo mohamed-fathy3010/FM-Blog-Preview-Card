@@ -16,7 +16,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/mohamed-fathy3010/FM-Blog-Preview-Card)
-- Live Site URL: [Live site URL](https://mohamed-fathy3010.github.io/FM-QR/)
+- Live Site URL: [Live site URL](https://mohamed-fathy3010.github.io/FM-Blog-Preview-Card/)
 
 ### Built with
 
