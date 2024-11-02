@@ -32,13 +32,15 @@
         --dark-gray: #111111;
       }
       body {
-        min-height: 100vh;
+        font-family: 'Figtree', sans-serif;
+      }
+      .main-content {
         padding: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: var(--yellow);
-        font-family: 'Figtree', sans-serif;
+        min-height: 100vh;
       }
       .article {
         padding: 1.5rem;
@@ -108,27 +110,29 @@
     </style>
   </head>
   <body>
-    <article class="article article--hover">
-      <img
-        class="article__img"
-        src="assets/images/illustration-article.svg"
-        alt="An illustration image for an article thumbnail" />
-      <span class="article__tag">Learning</span>
-      <div class="article__date">Published 21 Dec 2023</div>
-      <h1 class="article__header article__header--hover">
-        HTML & CSS foundations
-      </h1>
-      <p class="article__intro">
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
-      </p>
-      <div class="article__author">
+    <main class="main-content">
+      <article class="article article--hover">
         <img
-          class="article__author-photo"
-          src="assets/images/image-avatar.webp"
-          alt="An image for the article author" />
-        <span class="article__author-name"> Greg Hooper </span>
-      </div>
-    </article>
+          class="article__img"
+          src="assets/images/illustration-article.svg"
+          alt="An illustration image for an article thumbnail" />
+        <span class="article__tag">Learning</span>
+        <div class="article__date">Published 21 Dec 2023</div>
+        <h1 class="article__header article__header--hover">
+          HTML & CSS foundations
+        </h1>
+        <p class="article__intro">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="article__author">
+          <img
+            class="article__author-photo"
+            src="assets/images/image-avatar.webp"
+            alt="An image for the article author" />
+          <span class="article__author-name"> Greg Hooper </span>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
